@@ -9,7 +9,7 @@ const Login = () => {
 		const handleLogin = (e) => {
 			e.preventDefault();
 			// Add your login logic here
-			console.log("Logging in:", { email, password });
+			console.log("Logging in:", { email });
 		};
   return (
 		<div className="flex items-center justify-center min-h-screen bg-gray-100">
